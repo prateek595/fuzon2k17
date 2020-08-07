@@ -1,0 +1,43 @@
+
+body{
+    background-image: url(images/b03.jpg);
+    background-size: auto; 
+    color: white;
+    background-position: center;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.13);
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1;
+    font-family: times new roman;
+    font-size: 20;
+    border: solid 0.5px gray;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display:block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    border-left: solid 0.5px gray ;
+    border-right: solid 0.5px gray;
+}
+
+li a:hover {
+    color: black;
+    background-color:white;
+}
